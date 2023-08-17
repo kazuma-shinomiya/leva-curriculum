@@ -19,6 +19,7 @@ class PostFactory extends Factory
         return [
             'title' => fake()->word(10),
             'body' => fake()->sentence(),
+            'category_id' => 1,
             'created_at' => now(),
             'updated_at' => now(),
         ];
