@@ -2,11 +2,10 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Post;
+use DateTime;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use DateTime;
-use App\Models\Post;
 
 class PostSeeder extends Seeder
 {
